@@ -1,0 +1,30 @@
+*{
+    background-color: black;
+    color: white;
+}
+body{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.dropdown{
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.select-container{
+    display: flex;
+}
+form select,
+option{
+    border: none;
+}
+button{
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.msg{
+    display: none;
+}
